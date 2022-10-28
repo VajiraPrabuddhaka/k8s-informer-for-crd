@@ -45,7 +45,6 @@ func WatchResources(clientSet v1alpha1.APIV1Alpha1Interface) (cache.Controller, 
 		},
 	)
 
-	//go httpRouteController.Run(wait.NeverStop)
 	return apiController, apiStore
 }
 
